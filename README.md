@@ -5,6 +5,9 @@ A deep learning pipeline to upscale coarse rainfall forecasts from Copernicus (1
 ## Overview
 
 This notebook implements a **U-Net based super-resolution model** trained on seasonal climate forecast data. The model learns to transform low-resolution (coarse) rainfall patterns into fine-grained spatial detail while preserving physical accuracy.
+Dataset links:
+https://cds.climate.copernicus.eu/datasets/seasonal-monthly-single-levels?tab=overview (Copernicus training dataset )
+https://imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html (IMD dataset used for validation)
 
 ### Key Features
 
